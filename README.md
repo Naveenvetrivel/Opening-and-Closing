@@ -42,7 +42,7 @@ import cv2
 # Create the Text using cv2.putText
 text_image = np.zeros((100,440),dtype = 'uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX = 3
-cv2.putText(text_image,"Parsh",(5,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(text_image,"NAVEEN",(5,70),font,2,(255),5,cv2.LINE_AA)
 plt.title("ORIGINAL IMAGE")
 plt.imshow(text_image)
 plt.axis('off')
